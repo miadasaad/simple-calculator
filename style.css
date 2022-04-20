@@ -1,0 +1,52 @@
+#calculator {
+    margin: auto;
+    margin-top: 6%;
+    width: 405px;
+    border-radius: 10px;
+    box-shadow: 0 0 3em #cdcdcd;
+}
+
+
+#answer .result{
+    padding: 25px;
+    background: #252525;
+    width: 87%;
+    text-align: right;
+    color: white;
+}
+.main{
+    display: flex;
+}
+
+.main button {
+    font-size: 1.2em;
+    float: left;
+    width: 30%;
+    background-color: white;
+    border: 0;
+    padding: 1em;
+    margin: 9px 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.part2 button{
+    display: inline-block;
+    width: 82%;
+
+}
+.operator{
+    color: #6D98B7 !important;
+}
+.equal{
+    height: 75% !important;
+    background-color: #2D86C0 !important;
+    color: white !important;
+}
+#clear{
+    background: #F05960 !important;
+    color: white !important;
+}
+
+  p:empty:not(:focus)::before {
+    content: attr(data-placeholder);
+  }
